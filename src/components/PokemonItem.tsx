@@ -1,8 +1,12 @@
-function PokemonItem(){
+interface Iprops{
+  name:string
+}
+
+function PokemonItem({name}:Iprops ){
 return(
 
 <div>
-    <h2>Nome do Pokemon</h2>
+    <h2>{name}</h2>
 </div>
 
 )
