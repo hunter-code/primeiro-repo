@@ -1,9 +1,6 @@
 
-import PokemonItem from "../components/PokemonItem"
-
-function App() {
-  
-
+import PokemonItem from "../../components/PokemonItens"
+function Home() {
   return (
   <div>
   <h1>Meu site com react! </h1>
@@ -19,4 +16,4 @@ function App() {
   
 }
 
-export default App;
+export default Home;
