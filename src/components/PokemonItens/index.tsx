@@ -1,5 +1,5 @@
  import styles from './styles.module.css'
-
+ 
 interface Iprops{
   name:string
 }
@@ -7,8 +7,8 @@ interface Iprops{
 const PokemonItem: React.FC<Iprops> = ({name} ) =>{
 return(
 
-<div>
-    <h2>{name}</h2>
+<div className={styles.background}>
+    <h2 className={styles.name}>{name}</h2>
 </div>
 
 )

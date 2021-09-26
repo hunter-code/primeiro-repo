@@ -1,10 +1,11 @@
-
-import PokemonItem from "../../components/PokemonItens"
+import PokemonItem from '../../components/PokemonItens'
+import PokemonLogo from '../../assets/images/pokemon.png'
+import styles from  './styles.module.css'
 
 function Home() {
   return (
-  <div>
-  <h1>Meu site com react! </h1>
+  <div className={styles.container}>
+   <img src={PokemonLogo} alt="Pokemon Logo" width="200" height="150"  />
   <PokemonItem name="pikachu"/>
   <PokemonItem name="charmander"/>
   <PokemonItem name="bulbasauro"/>
