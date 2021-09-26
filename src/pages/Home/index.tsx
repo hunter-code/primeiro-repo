@@ -1,5 +1,6 @@
 
 import PokemonItem from "../../components/PokemonItens"
+
 function Home() {
   return (
   <div>
